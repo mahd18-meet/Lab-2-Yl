@@ -1,0 +1,50 @@
+p {
+	font-size: 50px;
+	text-transform: uppercase;
+	
+	;
+
+}
+
+img{
+	border-radius: 25px;
+	height: 30%;
+	width: 30%;
+	
+}
+
+body{
+	font-family: Arial;
+	background-image: url(https://i.stack.imgur.com/jGlzr.png)
+}
+
+h1 {
+	
+	font-size: 50px;
+	text-align: center;
+}
+
+.intro{
+	color:red;
+}
+
+#sp{
+	text-decoration: underline;
+}
+
+.center{
+	text-align:center;
+}
+
+	@keyframes example {
+	from {background-color: red;}
+	to {background-color: yellow;}
+}
+
+.animation { 
+
+	background-color: red;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+ }
